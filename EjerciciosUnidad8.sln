@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio2FlexLayout", "Eje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio3AbsoluteLayout", "Ejercicio3AbsoluteLayout\Ejercicio3AbsoluteLayout.csproj", "{8C083C99-D1B9-4648-9B98-6F209D5538BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio4VariosLayout", "Ejercicio4VariosLayout\Ejercicio4VariosLayout.csproj", "{9A68161D-1B7A-4E07-B24F-4579EFBD9F80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{8C083C99-D1B9-4648-9B98-6F209D5538BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C083C99-D1B9-4648-9B98-6F209D5538BD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8C083C99-D1B9-4648-9B98-6F209D5538BD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9A68161D-1B7A-4E07-B24F-4579EFBD9F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A68161D-1B7A-4E07-B24F-4579EFBD9F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A68161D-1B7A-4E07-B24F-4579EFBD9F80}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9A68161D-1B7A-4E07-B24F-4579EFBD9F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A68161D-1B7A-4E07-B24F-4579EFBD9F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A68161D-1B7A-4E07-B24F-4579EFBD9F80}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
