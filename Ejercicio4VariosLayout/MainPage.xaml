@@ -5,21 +5,81 @@
 
 
     <Grid>
-        <AbsoluteLayout>
-        <Label Text="ESTO ES EL TITULO DEL TEMARIO">
-            
-        </Label>
-        </AbsoluteLayout>
-        <AbsoluteLayout>
-        <Label Text="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-               AbsoluteLayout.LayoutBounds="0,30">
-         </Label>
-        </AbsoluteLayout>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
 
-        <Image Source="dotnet_bot.png"
-               MaximumHeightRequest="100"
-               WidthRequest="100"
-               ></Image>
-    </Grid>     
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackLayout HorizontalOptions="Fill" Grid.ColumnSpan="2">
+            <Border HorizontalOptions="Fill">
+                <Label
+                Text="Texto MAIN"
+               HorizontalOptions="Center">
+                </Label>
+            </Border>
+            <Border>
+                <Label 
+                Text="Lore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsumLore IPsum">
+                </Label>
+            </Border>
+        </StackLayout>
+        <FlexLayout Wrap="Wrap" Grid.Row="1" >
+            <Image Source="caracal.jpg"
+                   MaximumHeightRequest="150"
+                   MaximumWidthRequest="150"
+                   Grid.Row="1"
+                   HorizontalOptions="Start"
+                   Margin="0,0,10,0">
+            </Image>
+            <Image Source="caracal.jpg"
+                   MaximumHeightRequest="150"
+                   MaximumWidthRequest="150"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   HorizontalOptions="Start"
+                   Margin="0,0,10,0"
+                  >
+            </Image>
+        </FlexLayout>
+
+        <Image Source="caracal.jpg"
+                   MaximumHeightRequest="150"
+                   MaximumWidthRequest="150"
+                   Grid.Row="2"
+                   HorizontalOptions="Start"
+                   Margin="0,0,10,0">
+            </Image>
+        
+        
+            <Label
+                Text="Mucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho texto"
+                Grid.Row="1"
+                Grid.Column="1">
+              </Label>
+            <Label
+                Text="Mucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho texto"
+                Grid.Row="2"
+                Grid.Column="1">
+              </Label>
+            <Label
+                Text="Mucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho texto"
+                Grid.Row="3"
+                Grid.Column="1">
+              </Label>
+            <Label
+                Text="Mucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho textoMucho texto"
+                Grid.Row="4"
+                Grid.Column="1">
+              </Label>
+   
+    </Grid> 
 
 </ContentPage>
