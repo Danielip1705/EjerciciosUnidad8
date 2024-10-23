@@ -8,8 +8,11 @@ namespace Ejercicio5Listado
 {
     public class ListadoPersonas
     {
-    
-        public List<clsPersona> getListadoCompleto(clsPersona obj)
+        /// <summary>
+        /// Funcion que devuelve una lista de personas
+        /// </summary>
+        /// <returns></returns>
+        public static List<clsPersona> getListadoCompleto()
         {
             List<clsPersona> listadoPersona = new List<clsPersona>
             {
