@@ -8,14 +8,12 @@ namespace Ejercicio5Listado
         #region Atributos
         public string Nombre { get; set; }
         public string Apellido { get; set; }
-        public string Mail { get; set; }
         #endregion Atributos
-        #region Funciones
-        public clsPersona(string nombreUsu, string ApellidoUsu, string MailUsu)
+        #region Constructor
+        public clsPersona(string nombreUsu, string ApellidoUsu)
         {
             Nombre = nombreUsu;
             Apellido = ApellidoUsu;
-            Mail = MailUsu;
 
         }
         #endregion
