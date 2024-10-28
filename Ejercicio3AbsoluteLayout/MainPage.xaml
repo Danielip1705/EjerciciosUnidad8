@@ -16,18 +16,14 @@
             BackgroundColor="Green"
             AbsoluteLayout.LayoutBounds="0,100,300,100">
         </BoxView>
-        <FlexLayout 
-        AbsoluteLayout.LayoutBounds="100,200"
-        AbsoluteLayout.LayoutFlags="All"
-        AlignContent="End"
-        >
-            <BoxView
+        <BoxView
             BackgroundColor="Yellow"
-            FlexLayout.Grow="1"
+               AbsoluteLayout.LayoutBounds="100,200,1,1"
+               AbsoluteLayout.LayoutFlags="WidthProportional,HeightProportional"
             
             >
             </BoxView>
-        </FlexLayout>
+
     </AbsoluteLayout>
     
     <!--0,0,0,0

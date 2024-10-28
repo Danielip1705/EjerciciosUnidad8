@@ -3,12 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejercicio2FlexLayout.MainPage">
     <FlexLayout Direction="Column">
-    <Label BackgroundColor="DeepSkyBlue"
-               Text="HEADER"
-               TextColor="Blue"
-           HorizontalOptions="Center">
-            
-    </Label>
+        <Label Text="HEADER"
+               FontSize="18"
+               BackgroundColor="Aqua"
+               HorizontalTextAlignment="Center" />
+        
         <FlexLayout FlexLayout.Grow="1">
             <Label Text="CONTENT"
                    FontSize="18"

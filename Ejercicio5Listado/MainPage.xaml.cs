@@ -8,9 +8,6 @@ namespace Ejercicio5Listado
         // Declaración de una ObservableCollection para almacenar objetos de tipo clsPersona
         ObservableCollection<clsPersona> personaCol = new ObservableCollection<clsPersona>();
 
-        // Propiedad pública para acceder a la colección de personas
-        public ObservableCollection<clsPersona> per { get { return personaCol; } }
-
         public MainPage()
         {
             // Inicializa los componentes de la página

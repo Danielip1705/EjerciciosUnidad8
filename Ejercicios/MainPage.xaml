@@ -3,37 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejercicios.MainPage">
 
-    <Frame
-        BorderColor="Purple"
-        CornerRadius="10">
+    <Border
+        Stroke="Purple"
+        StrokeThickness="5"
+        StrokeShape="RoundRectangle 40,40,0,0">
 
 
         <StackLayout Padding="100"
                      Spacing="20">
-            
-                <Button Text="Boton1" MaximumHeightRequest="150"
-                MaximumWidthRequest="150"
+
+            <Button Text="Boton1" MaximumHeightRequest="150"
                 Padding="20"
                 BorderColor="Black"
-                BorderWidth="10"/>
-                <Button Text="Boton2" Padding="20"
-                MaximumHeightRequest="150"
-                MaximumWidthRequest="150"/>
-             <Button Text="Boton3" Padding="20" 
-                MaximumHeightRequest="150"
-                MaximumWidthRequest="150"/>
-            <HorizontalStackLayout>
-                
-                <Label Text="Nombre:" Margin="0,10"></Label>
-            <Entry BackgroundColor="LightBlue" MaximumWidthRequest="150"></Entry>
-                
+                BorderWidth="10"
+                MaximumWidthRequest="100"/>
+            <Button Text="Boton2" Padding="20"
+                        MaximumWidthRequest="100"
+                />
+            <Button Text="Boton3" Padding="20" 
+                     MaximumWidthRequest="100"
+                />
+            <HorizontalStackLayout HorizontalOptions="Center">
+
+                <Label Text="Nombre:" Margin="10"></Label>
+                <Entry BackgroundColor="LightBlue" MinimumWidthRequest="120"></Entry>
+
             </HorizontalStackLayout>
         </StackLayout>
 
 
 
 
-    </Frame>
-    
+    </Border>
+
 
 </ContentPage>
